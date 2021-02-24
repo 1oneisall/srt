@@ -4,4 +4,5 @@ function Get_ResponseInfo()
     RequestHeaders = $response.headers;
     console.log(RequestHeaders);
 }
+Get_ResponseInfo()
 
