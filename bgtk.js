@@ -13,3 +13,6 @@ function Change_ResponseBody()
    // RespnseBodyData["ExampleTree"] = "ExampleChangeTree";
     //$done({RespnseBodyData});//修改完成之后需要调用$done
 }
+
+Get_ResponseInfo();
+Change_ResponseBody();
