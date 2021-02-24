@@ -4,15 +4,4 @@ function Get_ResponseInfo()
     RequestHeaders = $response.headers;
     console.log(RequestHeaders);
 }
-//修改消息体
-function Change_ResponseBody()
-{
-    var RespnseBodyData = $response.body
-    RespnseBodyData = Json.parse(RespnseBodyData);
-    console.log(RespnseBodyData);
-   // RespnseBodyData["ExampleTree"] = "ExampleChangeTree";
-    //$done({RespnseBodyData});//修改完成之后需要调用$done
-}
 
-Get_ResponseInfo();
-Change_ResponseBody();
