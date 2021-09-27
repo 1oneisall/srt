@@ -8,3 +8,4 @@ function Get_Ys_Token()
     
 }
 Get_Ys_Token();
+$notification.post("写入Ys Token成功 test");
